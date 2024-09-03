@@ -1,0 +1,8 @@
+package exercicio;
+
+public class Porduto {
+
+	private String descricao;
+	private Double salario;
+	private Integer estoque;
+}

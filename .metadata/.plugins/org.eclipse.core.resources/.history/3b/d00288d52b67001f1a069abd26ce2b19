@@ -1,0 +1,9 @@
+package aula03;
+
+public class TestePedido {
+
+	public static void main(String[] args) {
+		Pedido pedido = new Pedido(123, LocalDate.now, 100.0);
+		
+	}
+}

@@ -1,0 +1,22 @@
+package aula03;
+
+public class GerarFolha {
+
+	public static void main(String[] args) {
+
+		Funcionario funcionario = new Funcionario();
+		Scanner sc = new Scanner(System.int);
+		
+		funcionario.nome = "Pedro";
+		funcionario.cpf = "123";
+		funcionario.salario = 1600.;
+		
+		if(funcionario.salario > 1412.) {
+			System.out.println("Sal. lq. "+ funcionario.cacularFolha());
+			System.out.println("Folha gerada...");
+		}else {
+			System.out.println("Salrio invalido...");
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+package aula03;
+
+import java.util.Scanner;
+
+public class GerarFolha {
+
+	public static void main(String[] args) {
+
+		Funcionario funcionario = new Funcionario();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o nome: ");
+		funcionario.setNome(sc.next());
+		
+		System.out.println("Digite o cpf: ");
+		funcionario.setCpf(sc.next());
+		
+		System.out.println("Digite o salario bruto: ");
+		funcionario.setSalario(sc.nextDouble());
+
+
+	}
+
+}

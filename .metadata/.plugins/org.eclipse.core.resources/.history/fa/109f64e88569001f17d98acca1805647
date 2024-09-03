@@ -1,0 +1,10 @@
+package heranca;
+
+public class TesteVeiculo {
+
+	public static void main(String[] args) {
+		
+		Moto v1 = new Moto("LVC3491", "Vermelinha", 20000.0, true);
+	}
+
+}

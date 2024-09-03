@@ -1,0 +1,7 @@
+package heranca;
+
+public class Empregado {
+	private String nome;
+	private String cpf;
+	private Double salario;
+}

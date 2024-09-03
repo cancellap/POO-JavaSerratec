@@ -1,0 +1,67 @@
+package aula03;
+
+public class Funcionario {
+
+    private String cpf;
+    private String nome;
+    private Double salario;
+    private static int total = 0;
+
+    // Constructor
+    public Funcionario(String cpf, String nome, Double salario) {
+        this.cpf = cpf;
+        this.nome = nome;
+        setSalario(salario); // use setter for validation
+        registro();
+    }
+
+    // Get and Set - Nome
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    // Get and Set - Salario
+    public Double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(Double salario) {
+        if (salario > 1412.00) {
+            this.salario = salario;
+        } else {
+            System.out.println("Salario invalido!");
+        }
+    }
+
+    // Get and Set - Cpf
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    // Get and Set - Total
+    public static int getTotal() {
+        return total;
+    }
+
+    public static void setTotal(int total) {
+        Funcionario.total = total;
+    }
+
+    // Método corrigido para calcular a folha
+    public Double calcularFolha() {
+        return salario * 0.83;
+    }
+
+    // Registro de novos funcionários
+    public static void registro() {
+        total++;
+    }
+}

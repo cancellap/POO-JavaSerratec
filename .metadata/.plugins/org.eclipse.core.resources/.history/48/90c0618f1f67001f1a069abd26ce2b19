@@ -1,0 +1,47 @@
+package aula03;
+
+public class Funcionario {
+
+	private String cpf;
+	private String nome;
+	private Double salario;
+	private static int total = 0;
+
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setSalario(Double salario) {
+		if (salario > 1412.) {
+			this.salario = salario;
+			//return true;
+		} else {
+			System.out.println("Salario invalido! ");
+			//return false;
+		}
+
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public static void setTotal(int total) {
+		Funcionario.total = total;
+	}
+
+	public Double cacularFolha() {
+		registro();
+		return salario * 0.83;
+	}
+
+	public static int registro() {
+		return total++;
+
+	}
+}

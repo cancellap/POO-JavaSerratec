@@ -1,0 +1,20 @@
+package aula03;
+
+public class Funcionario {
+
+	private String cpf;
+	private String nome;
+	private Double salario;
+	private int total;
+	
+	public Double cacularFolha() {
+		return salario * 0.83;
+		
+	public static int registro() {
+		return total++;
+	}
+	}
+}
+
+
+

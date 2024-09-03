@@ -1,0 +1,7 @@
+package aula03;
+
+public class TestePedido {
+public static void main(String[] args) {
+	
+}
+}

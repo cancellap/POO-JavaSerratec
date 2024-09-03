@@ -1,0 +1,27 @@
+package exercicio;
+
+public class Produto {
+
+	private String nome;
+	private Double valor;
+	private Integer quantidade;
+	private int total;
+
+	public Produto(Integer quantidade, Double valor, String nome) {
+		this.quantidade = quantidade;
+		this.nome = nome;
+		this.valor = valor;
+	}
+
+	private Double total() {
+		Double total = valor * quantidade;
+		return total;
+
+	}
+
+	public Double calcIcms() {
+		Double totalIcms = total() + (total() * 0.12);
+		return totalIcms;
+	}
+
+}

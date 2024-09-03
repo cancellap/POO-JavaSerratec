@@ -1,0 +1,8 @@
+package heranca;
+
+public class Veiculo {
+
+		private String placa;
+		private String cor;
+		private Double preco;
+}

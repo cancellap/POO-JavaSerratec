@@ -1,0 +1,16 @@
+package aula03;
+
+public class Funcionario {
+
+	String cpf;
+	String nome;
+	Double salario;
+	
+	public Double cacularFolha() {
+		return salario * 0.83;
+		
+	}
+}
+
+
+

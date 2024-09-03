@@ -1,0 +1,11 @@
+package exercicio;
+
+public class TesteProduto {
+	
+	public static void main(String[] args) {
+		Produto p1 = new Produto(2, 10.0, "feijao");
+		
+		System.out.println("Produto: "+ p1.getNome());
+		System.out.println("Valor Unitário: "+ p1.getValor());
+	}
+}

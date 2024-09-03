@@ -1,0 +1,12 @@
+package heranca;
+
+public class Caminhao extends Veiculo {
+	private Integer cargaMaxima;
+
+	public Caminhao(String placa, String cor, Double preco, Integer cargaMaxima) {
+		super(placa, cor, preco);
+		this.cargaMaxima = cargaMaxima;
+	}
+	
+	
+}

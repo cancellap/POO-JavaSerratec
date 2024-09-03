@@ -1,0 +1,51 @@
+package exercicio;
+
+public class Produto {
+
+	private String nome;
+	private Double valor;
+	private Integer quantidade;
+	private int total;
+
+	public Produto(Integer quantidade, Double valor, String descricao) {
+		this.quantidade = quantidade;
+		this.nome = descricao;
+		this.valor = valor;
+	}
+
+	private Double total() {
+		Double total = valor * quantidade;
+		return total;
+
+	}
+
+	public Double calcIcms() {
+		Double totalIcms = total() + (total() * 0.12);
+		return totalIcms;
+	}
+
+	public String getDescricao() {
+		return nome;
+	}
+
+	public void setDescricao(String descricao) {
+		this.nome = descricao;
+	}
+
+	public Double getSalario() {
+		return valor;
+	}
+
+	public void setSalario(Double salario) {
+		this.valor = salario;
+	}
+
+	public Integer getEstoque() {
+		return quantidade;
+	}
+
+	public void setEstoque(Integer estoque) {
+		this.quantidade = estoque;
+	}
+
+}
