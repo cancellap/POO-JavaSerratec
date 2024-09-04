@@ -1,6 +1,6 @@
 package exercicio;
 
-public class Vendedor {
+public abstract class Vendedor {
 	protected String nome;
 	protected String cpf;
 

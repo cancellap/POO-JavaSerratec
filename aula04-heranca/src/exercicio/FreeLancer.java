@@ -10,6 +10,10 @@ public class FreeLancer extends Vendedor {
 		this.diasTrabalhados = diasTrabalhados;
 		this.valorDia = valorDia;
 	}
+	
+	public FreeLancer() {
+		
+	}
 
 	@Override
 	public String toString() {
