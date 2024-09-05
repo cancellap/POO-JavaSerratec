@@ -23,6 +23,7 @@ public class TesteVendedor {
 
 			switch (tipoVendedor) {
 			case 1:
+				
 				VendedorFixo vendedor = new VendedorFixo();
 
 				System.out.println("Digite o nome: ");
