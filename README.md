@@ -1,4 +1,4 @@
-# Estudos de TIC - Residência de Software
+# Estudos de JAVA(POO) - Residência de Software
 
 Este repositório contém meus estudos realizados durante a Residência em TIC Software oferecida pelo **Serratec - Parque Tecnológico de Petrópolis**. O conteúdo deste repositório está focado em **Java** e **Programação Orientada a Objetos (POO)**.
 
