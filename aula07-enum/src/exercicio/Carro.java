@@ -29,16 +29,18 @@ public class Carro extends Veiculo {
 
 	@Override
 	public double trocarOleo() {
-		if (this.dateConserto.getDayOfWeek() == DayOfWeek.MONDAY) {
+		if (this.dateConserto.getDayOfWeek() == DayOfWeek.SATURDAY) {
+			return valorCobrado = TipoServico.OLEO.getValor() - 50.;
 		}
-		return valorCobrado = TipoServico.OLEO.getValor() - 50.;
+		return valorCobrado = TipoServico.OLEO.getValor();
 	}
 
 	@Override
 	public double revisao() {
 		if (this.dateConserto.getMonth() == Month.AUGUST) {
+			return valorCobrado = TipoServico.REVISAO.getValor() - TipoServico.REVISAO.getValor() * 0.10;
 		}
-		return valorCobrado = TipoServico.REVISAO.getValor() - TipoServico.REVISAO.getValor() * 0.10;
+		return valorCobrado = TipoServico.REVISAO.getValor();
 	}
 
 }
