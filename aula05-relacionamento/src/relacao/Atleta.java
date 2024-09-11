@@ -11,7 +11,7 @@ public class Atleta {
 
 	@Override
 	public String toString() {
-		return " NomeAtleta: " + nomeAleta + " Idade: " + idade;
+		return " Nome: " + nomeAleta + " | Idade: " + idade;
 	}
 
 	public String getNomeAleta() {

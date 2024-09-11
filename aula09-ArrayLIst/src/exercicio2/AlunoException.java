@@ -1,4 +1,4 @@
-package Exercicio;
+package exercicio2;
 
 public class AlunoException extends RuntimeException {
 
