@@ -5,6 +5,7 @@ public class TestePessoa {
 	public static void main(String[] args) {
 
 		Pessoa p = new Pessoa("Paulinho", EstadoCivil.CASADO);
+	
 		System.out.println(p.getNome() + " - " + p.getEstadoCivil());
 		
 		//foreach -> itera sobre array
