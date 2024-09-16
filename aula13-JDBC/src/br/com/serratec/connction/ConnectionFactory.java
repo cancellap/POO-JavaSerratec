@@ -1,0 +1,33 @@
+package br.com.serratec.connction;
+
+import java.sql.Connection;
+import java.sql.ConnectionBuilder;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConnectionFactory {
+
+	String url = "jdbc:postgresql://localhost:5432/curso";
+	String usuario = "postgres";
+	String senha = "1234";
+	
+	private Connection connection;
+
+	public Connection getConnection() {
+		System.out.println("indo");
+		try {
+			connection = DriverManager.getConnection(url, usuario, senha);
+			if (connection != null) {
+				System.out.println("fooi");
+			}else {
+				System.out.println("nao foi!");
+			}
+			
+		} catch (SQLException e) {
+			System.err.println("nem tentei");
+		}
+		return connection;
+	}
+	
+	
+}

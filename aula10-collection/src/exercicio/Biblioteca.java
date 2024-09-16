@@ -3,7 +3,6 @@ package exercicio;
 import java.util.List;
 public class Biblioteca {
 	private String responsavel;
-
 	private List<Livro> livros;
 
 
