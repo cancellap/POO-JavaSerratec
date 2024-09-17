@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=aula05-relacionamento/src&lt;revisao{Medico.java[Medico" modifiers="1" timestamp="1725401969119"/>
+    <typeInfo handle="=aula06-interface/src&lt;revisao{Funcionario.java[Funcionario" modifiers="1025" timestamp="1725486244500"/>
+    <typeInfo handle="=aula07-enum/src&lt;revisao{Animal.java[Animal" modifiers="1025" timestamp="1725571003619"/>
+    <typeInfo handle="=aula07-enum/src&lt;revisao{Mamifero.java[Mamifero" modifiers="1025" timestamp="1725571621271"/>
+    <typeInfo handle="=aula07-enum/src&lt;revisao{AnimalDomestico.java[AnimalDomestico" modifiers="513" timestamp="1725571878391"/>
 </typeInfoHistroy>

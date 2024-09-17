@@ -1,6 +1,0 @@
-package aula03;
-
-public class Pedido {
-	private Integer numero;
-	private LocalDate data;
-}
