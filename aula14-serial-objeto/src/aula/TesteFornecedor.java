@@ -13,6 +13,7 @@ public class TesteFornecedor {
 		Fornecedor f1 = new Fornecedor("2343", "ABC ltda");
 		Fornecedor f2 = new Fornecedor("6753", "XPTO ltda");
 		Fornecedor f3 = new Fornecedor("6753", "XPTO ltda");
+		
 		fornecedores.add(f1);
 		fornecedores.add(f2);
 		
