@@ -11,13 +11,13 @@ public class ConnectionFactory {
 	String usuario = "postgres";
 	String senha = "1234";
 	
-	private Connection connection;
+	private Connection conexao;
 
 	public Connection getConnection() {
 		System.out.println("indo");
 		try {
-			connection = DriverManager.getConnection(url, usuario, senha);
-			if (connection != null) {
+			conexao = DriverManager.getConnection(url, usuario, senha);
+			if (conexao != null) {
 				System.out.println("fooi");
 			}else {
 				System.out.println("nao foi!");
@@ -26,7 +26,7 @@ public class ConnectionFactory {
 		} catch (SQLException e) {
 			System.err.println("nem tentei");
 		}
-		return connection;
+		return conexao;
 	}
 	
 	

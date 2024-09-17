@@ -35,7 +35,7 @@ public class ExemploTrabalho {
 		} catch (Exception e) {
 			System.out.println("Erro ao ler o arquivo: " + e.getMessage());
 		}
-
+/*
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter("C:/curso/empregadoBw.txt"));
 			for (Empregado empregado : empregados) {
@@ -45,5 +45,7 @@ public class ExemploTrabalho {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
+ */
+		System.out.println(empregados);
 	}
 }
