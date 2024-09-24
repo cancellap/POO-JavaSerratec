@@ -22,9 +22,10 @@ public class Fornecedor implements Serializable{
 	}
 
 	
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(nome);
+		return Objects.hash(cnpj);
 	}
 
 	@Override
@@ -36,7 +37,7 @@ public class Fornecedor implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Fornecedor other = (Fornecedor) obj;
-		return Objects.equals(nome, other.nome);
+		return Objects.equals(cnpj, other.cnpj);
 	}
 
 	public String getCnpj() {
